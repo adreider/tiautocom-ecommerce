@@ -3,7 +3,7 @@
 ## API (NODEJS)
 
 <p align="center">
-  <img alt="mycode" src="https://raw.githubusercontent.com/adreider/tiautocom-ecommerce/main/.github/mycod.png">
+  <img alt="mycode" src="https://raw.githubusercontent.com/adreider/tiautocom-ecommerce/main/.github/mycode.png">
 </p>
 
 ### INIT PROJECT
