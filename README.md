@@ -3,7 +3,7 @@
 ## API (NODEJS)
 
 <p align="center">
-  <img alt="License MIT" src="">
+  <img alt="License MIT" src="https://github.com/adreider/tiautocom-ecommerce/blob/main/assets/license.png?raw=true">
 </p>
 
 ### INIT PROJECT
@@ -13,7 +13,9 @@
 * criar tsconfig.json
 
 ## migrations
-- [] criar product
+- [x] criar product
+- [x] criar department
+- [x] criar empresa
 - [] criar item
 
 ## - [ MODELO MVC ]
