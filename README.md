@@ -3,7 +3,7 @@
 ## API (NODEJS)
 
 <p align="center">
-  <img alt="License MIT" src="">
+  <img alt="mycode" src="https://raw.githubusercontent.com/adreider/tiautocom-ecommerce/main/.github/mycod.png">
 </p>
 
 ### INIT PROJECT
