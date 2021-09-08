@@ -17,9 +17,6 @@ class User {
   password: string;
 
   @Column()
-  avatar: string;
-
-  @Column()
   admin: boolean;
 
   @CreateDateColumn()
