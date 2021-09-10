@@ -35,5 +35,5 @@
 
 ### Regras
 
-
-
+- [] Todo usuário tem que estar autenticado na aplicação
+- [] Usuário admistrador pode criar, alterar e deletar produtos e departamentos

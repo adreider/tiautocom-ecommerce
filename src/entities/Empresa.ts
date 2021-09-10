@@ -10,6 +10,9 @@ class Empresa {
   name: string;
 
   @Column()
+  cnpj: string;
+
+  @Column()
   logo: string;
 
   @Column()
