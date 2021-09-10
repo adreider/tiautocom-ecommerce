@@ -1,7 +1,7 @@
 import {Entity, PrimaryColumn, Column, CreateDateColumn, UpdateDateColumn} from "typeorm";
 import { v4 as uuid } from "uuid";
 
-@Entity("empresas")
+@Entity("empresa")
 class Empresa {
   @PrimaryColumn()
   readonly id: string;
@@ -10,13 +10,10 @@ class Empresa {
   name: string;
 
   @Column()
-  cnpj: string;
+  logo: string;
 
-  @CreateDateColumn()
-  created_at: Date;
-
-  @UpdateDateColumn()
-  updated_at: Date;
+  @Column()
+  active: boolean;
 
   constructor() {
     if(!this.id) {
