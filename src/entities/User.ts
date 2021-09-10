@@ -19,6 +19,9 @@ class User {
   @Column()
   admin: boolean;
 
+  @Column()
+  empresa_id: string;
+
   @CreateDateColumn()
   created_at: Date;
 
