@@ -16,7 +16,9 @@
 - [x] criar product
 - [x] criar department
 - [x] criar empresa
-- [] criar item
+- [x] criar users
+- [] criar pedido
+- [] criar pedido_item
 
 ## - [ MODELO MVC ]
 
