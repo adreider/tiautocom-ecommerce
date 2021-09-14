@@ -5,17 +5,17 @@ class CreateUserController {
   async handle(request: Request, response: Response) {
     try {
 
-      const { name, email, admin, password, avatar } = request.body;
+      const { name, email, admin, password, empresa_id } = request.body;
 
       const createUserService = new CreateUserService();
 
-      const user = await createUserService.execute({ name, email, admin, password, avatar });
+      const user = await createUserService.execute({ name, email, admin, password, empresa_id });
 
       return response.json(user)
 
     } catch (err) {
 
-      return response.status(400).json({ error: err.message });
+      return response.status(400).end(err);
 
     }
   }

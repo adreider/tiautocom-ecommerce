@@ -6,18 +6,16 @@ class CreateEmpresaController {
   async handle(request: Request, response: Response) {
 
     try {
-      const { name, cnpj } = request.body;
+      const { name, cnpj, logo, active } = request.body;
 
       const createEmpresaService = new CreateEmpresaService();
 
-      const empresa = await createEmpresaService.execute({
-        name, cnpj
-      })
+      const empresa = await createEmpresaService.execute({ name, cnpj, logo, active});
 
       return response.json(empresa);
     } catch (err) {
 
-      return response.status(400).json({ error: err.message });
+      return response.status(400).end(err);
 
     }
 
