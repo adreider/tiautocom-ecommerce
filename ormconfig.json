@@ -3,7 +3,7 @@
   "host": "localhost",
   "port": 5432,
   "username": "postgres",
-  "password": "economia123",
+  "password": "cliente1",
   "database": "ecommerce",
 
   "migrations": ["src/database/migrations/*.ts"],
