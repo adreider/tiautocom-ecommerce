@@ -8,9 +8,14 @@ class ListEmpresaSevice {
 
     const empresa = await usersRepository.find({ 
       where: {
-        empresa_id
+        empresaId: empresa_id,
       }
     })
+    
+    return empresa;
   };
 
 }
+
+
+export { ListEmpresaSevice }
